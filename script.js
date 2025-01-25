@@ -2,46 +2,124 @@
 
 let questions = [
     {
-        "question":"Dit is een vraag, hierheb je iets staan?",
-        "answers":["antwoord 1", "antwoord 2", "antwoord 3"],
-        "answer":"antwoord 1"
+        "question": "Wat betekent 'HyperText' in HyperText Markup Language?",
+        "answers": [
+            "Tekst met opmaak voor betere leesbaarheid",
+            "Tekst met verwijzingen naar andere teksten",
+            "Een taal om multimedia-inhoud te creëren"
+        ],
+        "answer": "Tekst met verwijzingen naar andere teksten"
     },
     {
-        "question":"Dit is een vraag2, hierheb je iets staan?",
-        "answers":["antwoord 1", "antwoord 2", "antwoord 3"],
-        "answer":"antwoord 2"
+        "question": "Wat is een 'Markup Language'?",
+        "answers": [
+            "Een taal die documenten opmaakt en structuur geeft",
+            "Een taal die de werking van servers beschrijft",
+            "Een taal die alleen gebruikt wordt voor multimedia"
+        ],
+        "answer": "Een taal die documenten opmaakt en structuur geeft"
     },
     {
-        "question":"Dit is een vraag2, hierheb je iets staan?",
-        "answers":["antwoord 1", "antwoord 2", "antwoord 3"],
-        "answer":"antwoord 2"
+        "question": "Wat is de correcte structuur van een HTML-document?",
+        "answers": [
+            "&lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;, &lt;body&gt;",
+            "&lt;header&gt;, &lt;footer&gt;, &lt;aside&gt;",
+            "&lt;table&gt;, &lt;tr&gt;, &lt;td&gt;"
+        ],
+        "answer": "&lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;, &lt;body&gt;"
     },
     {
-        "question":"Dit is een vraag2, hierheb je iets staan?",
-        "answers":["antwoord 1", "antwoord 2", "antwoord 3"],
-        "answer":"antwoord 2"
+        "question": "Welke HTML-tags worden gebruikt voor een minimale tekstopmaak?",
+        "answers": [
+            "Heading, paragrafen en breaks",
+            "Divs, spans en buttons",
+            "Formulieren, inputvelden en knoppen"
+        ],
+        "answer": "Heading, paragrafen en breaks"
     },
     {
-        "question":"Dit is een vraag2, hierheb je iets staan?",
-        "answers":["antwoord 1", "antwoord 2", "antwoord 3"],
-        "answer":"antwoord 2"
+        "question": "Wat doet een &lt;div&gt;-element in HTML?",
+        "answers": [
+            "Het voegt kleur toe aan de tekst",
+            "Het fungeert als container voor inhoud en structuur",
+            "Het creëert een hyperlink naar een andere pagina"
+        ],
+        "answer": "Het fungeert als container voor inhoud en structuur"
     },
     {
-        "question":"Dit is een vraag2, hierheb je iets staan?",
-        "answers":["antwoord 1", "antwoord 2", "antwoord 3"],
-        "answer":"antwoord 2"
+        "question": "Welke tag wordt gebruikt om een afbeelding in een HTML-document in te voegen?",
+        "answers": [
+            "&lt;img&gt;",
+            "&lt;picture&gt;",
+            "&lt;image&gt;"
+        ],
+        "answer": "&lt;img&gt;"
     },
     {
-        "question":"Dit is een vraag2, hierheb je iets staan?",
-        "answers":["antwoord 1", "antwoord 2", "antwoord 3"],
-        "answer":"antwoord 2"
+        "question": "Wat is het verschil tussen een 'relative path' en een 'absolute path'?",
+        "answers": [
+            "Relative paths zoeken vanaf de huidige directory, absolute paths vanaf de root",
+            "Relative paths verwijzen altijd naar een externe server",
+            "Absolute paths gebruiken altijd ./ of ../"
+        ],
+        "answer": "Relative paths zoeken vanaf de huidige directory, absolute paths vanaf de root"
     },
     {
-        "question":"Dit is een vraag2, hierheb je iets staan?",
-        "answers":["antwoord 1", "antwoord 2", "antwoord 3"],
-        "answer":"antwoord 2"
+        "question": "Welke HTML-tags worden gebruikt voor een tabel?",
+        "answers": [
+            "&lt;table&gt;, &lt;tr&gt;, &lt;td&gt;",
+            "&lt;div&gt;, &lt;span&gt;, &lt;h1&gt;",
+            "&lt;header&gt;, &lt;footer&gt;, &lt;main&gt;"
+        ],
+        "answer": "&lt;table&gt;, &lt;tr&gt;, &lt;td&gt;"
     },
+    {
+        "question": "Wat is een voorbeeld van een block-element in HTML?",
+        "answers": [
+            "&lt;div&gt;",
+            "&lt;span&gt;",
+            "&lt;button&gt;"
+        ],
+        "answer": "&lt;div&gt;"
+    },
+    {
+        "question": "Wat is een 'inline-element' in HTML?",
+        "answers": [
+            "Een element dat op dezelfde regel blijft als andere inhoud",
+            "Een element dat altijd op een nieuwe regel begint",
+            "Een element dat wordt gebruikt voor tabellen"
+        ],
+        "answer": "Een element dat op dezelfde regel blijft als andere inhoud"
+    },
+    {
+        "question": "Wat is het doel van een &lt;span&gt;-element?",
+        "answers": [
+            "Een specifiek deel van tekst stylen",
+            "Een container creëren voor een hele sectie",
+            "Een lijst aanmaken in een document"
+        ],
+        "answer": "Een specifiek deel van tekst stylen"
+    },
+    {
+        "question": "Wat betekent de &lt;header&gt;-tag in een HTML-structuur?",
+        "answers": [
+            "Het geeft de koptekst van een pagina aan",
+            "Het definieert een tabelkop",
+            "Het voegt een afbeelding toe aan de pagina"
+        ],
+        "answer": "Het geeft de koptekst van een pagina aan"
+    },
+    {
+        "question": "Wat is een commentaar in HTML en hoe gebruik je het?",
+        "answers": [
+            "Een stukje tekst dat niet wordt gerenderd in de browser, geschreven tussen &lt;!-- en --&gt;",
+            "Tekst die wordt weergegeven in de browser voor gebruikers",
+            "Een sectiecode die altijd wordt uitgevoerd"
+        ],
+        "answer": "Een stukje tekst dat niet wordt gerenderd in de browser, geschreven tussen &lt;!-- en --&gt;"
+    }
 ]
+
 let checkDirectly = false;
 let index = -1;
 let questionAnswered = {}
@@ -79,7 +157,7 @@ const loadQuestions = (question) => {
     Object.values(document.getElementById("answers").children).forEach(element=>{element.remove()})
     question.answers.forEach((answer, index)=>{
         // let _ = `<div class='answer-box'><input id="${letters[index]}" onclick="selectAnswer('${letters[index]}')" type="checkbox" class="answer-checkbox"><label class='answer-label'>${letters[index]}. ${answer}</label></div>`
-        let _ = `<label id="answer_${letters[index]}" class="container">${letters[index]}. ${answer}
+        let _ = `<label id="answer_${letters[index]}" class="container">${letters[index]}. ${String(answer)}
             <input id="${letters[index]}" value="${answer}" onclick="selectAnswer('${letters[index]}')" type="checkbox" ${ givenAnswer == answer ? "checked" : null}>
             <span class="checkmark"></span>
           </label>`
@@ -151,7 +229,7 @@ const saveAnswer = () => {
     let answer; 
     document.getElementById("answers").querySelectorAll("input").forEach((element)=>{
         if(element.checked){
-            answer = element.value;
+            answer = element.value.replaceAll("&", "&amp").replaceAll("<", "&lt").replaceAll(">", "&gt");
         }
     })
     questionAnswered[questions[index].question] = answer;
@@ -223,8 +301,9 @@ const results = () => {
     let resultsDiv = document.getElementById("results");
     _results.forEach((result)=>{
     let _ = ` <div id="result-item">
-                <p class="${result.passed ? "passed" : "failed"}">Gegeven antwoord: <span>${result.userAnswer ? result.userAnswer : "Geen antwoord"}</span></p>
-                <p>Juiste antwoord: <span>${result.rightAnswer }</span></p>
+                <h3 class="question-title">${result.question}</h3>
+                <p class="${result.passed ? "passed" : "failed"}">Gegeven antwoord: <span>"${result.userAnswer ? result.userAnswer : "Geen antwoord"}"</span></p>
+                <p>Juiste antwoord: <span>${String(result.rightAnswer)}"</span></p>
                 <p class="${result.passed ? "passed" : "failed"}">Punten: <span>${result.passed ? "+1" : "0"}</span></p>
             </div>`
         resultsDiv.insertAdjacentHTML("beforeend", _)

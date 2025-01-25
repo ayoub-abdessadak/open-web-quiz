@@ -9,14 +9,16 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <title>Quiz!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
 <body>
+    <div id="results" hidden="true">
+        <button type="button" class="next-question" onclick="again()">opnieuw</button>
+    </div>
     <div class="simple-setting">
         <h3>Instellingen</h3>
         <input id="checkDirectly" type="checkbox"><label for="">Ik wil gelijk zien of ik het fout of goed heb</label>
     </div>
-    <div class="quiz-body">
+    <div class="quiz-body" id="quizBody">
         <!-- <div class="progress-beam">
             <div class="progress-items">
                 <div class="progress-item" onclick="navigate(1)">
@@ -45,7 +47,7 @@
         </div> -->
         <br>
         <input type="text" hidden="true" id="storedAnswers" value="{}">
-        <div class="quiz-innerbody" id="quizBody">
+        <div class="quiz-innerbody">
             <h3 id="currentQuestion">Vraag 1 van de 24</h3>
             <div class="question">
                 <h1 id="question-text">Vraag: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint amet, culpa eius dolore excepturi eos aliquid eligendi sed deserunt!</h1>
@@ -58,11 +60,6 @@
                 <button type="button" id="nextButton" onclick="nextQuestion()" class="next-question">volgende vraag</button>
             </div>
         </div>
-
-        <div id="results" hidden="true">
-            <button type="button" class="next-question" onclick="again()">opnieuw</button>
-        </div>
-
     </div>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
