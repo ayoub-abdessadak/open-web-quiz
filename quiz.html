@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="simple-setting">
+        <h3>Instellingen</h3>
+        <input id="checkDirectly" type="checkbox"><label for="">Ik wil gelijk zien of ik het fout of goed heb</label>
+    </div>
+    <div class="quiz-body">
+        <!-- <div class="progress-beam">
+            <div class="progress-items">
+                <div class="progress-item" onclick="navigate(1)">
+                    <p class="item-letter">1</p>
+                </div>
+                <div class="progress-item">
+                    <p class="item-letter">1</p>
+                </div>
+                <div class="progress-item">
+                    <p class="item-letter">1</p>
+                </div>
+                <div class="progress-item">
+                    <p class="item-letter">1</p>
+                </div>
+                <div class="progress-item">
+                    <p class="item-letter">1</p>
+                </div>
+                <div class="progress-item">
+                    <p class="item-letter">1</p>
+                </div>
+                <div class="progress-item">
+                    <p class="item-letter">1</p>
+                </div>
+            </div>
+            <div class="progress-line"></div>
+        </div> -->
+        <br>
+        <input type="text" hidden="true" id="storedAnswers" value="{}">
+        <div class="quiz-innerbody" id="quizBody">
+            <h3 id="currentQuestion">Vraag 1 van de 24</h3>
+            <div class="question">
+                <h1 id="question-text">Vraag: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint amet, culpa eius dolore excepturi eos aliquid eligendi sed deserunt!</h1>
+            </div>
+            <div id="answers">
+
+            </div>
+            <div class="action-buttons">
+                <button type="button" id="prevButton" onclick="previousQuestion()" class="previous-question">vorige vraag</button>
+                <button type="button" id="nextButton" onclick="nextQuestion()" class="next-question">volgende vraag</button>
+            </div>
+        </div>
+
+        <div id="results" hidden="true">
+            <button type="button" class="next-question" onclick="again()">opnieuw</button>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+
+</body>
+</html>

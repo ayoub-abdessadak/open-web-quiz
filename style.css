@@ -1,0 +1,182 @@
+*{
+    font-family: "Roboto", serif;
+}
+.quiz-body{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+.quiz-innerbody{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.answer-box{
+    margin-top: 5px;
+    font-size: 18px;
+}
+.simple-setting{
+    border: solid blueviolet 2px;
+    padding: 5px;
+    position: absolute;
+    width: auto;
+    top: 0;
+    right: 0;
+    margin: 1%;
+}
+.action-buttons{
+    margin-top: 2%;
+}
+.answer-label{
+    margin-left: 8px;
+}
+.previous-question{
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    cursor: pointer;
+}
+.next-question{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    cursor: pointer;
+}
+.container {
+display: block;
+position: relative;
+padding-left: 35px;
+margin-bottom: 12px;
+cursor: pointer;
+font-size: 22px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+position: absolute;
+opacity: 0;
+cursor: pointer;
+height: 0;
+width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+position: absolute;
+top: 0;
+left: 0;
+height: 25px;
+width: 25px;
+background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+background-color: blueviolet;;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+content: "";
+position: absolute;
+display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+left: 9px;
+top: 5px;
+width: 5px;
+height: 10px;
+border: solid white;
+border-width: 0 3px 3px 0;
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+.progress-beam{
+    margin-top:5%;
+    position:relative;
+    width:100%;
+}
+
+.progress-line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 5px;
+    width:100%;
+    /* margin-top: 5%; */
+    background-color: black;
+    z-index: 10;
+}
+
+.progress-items{
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    z-index: 12;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.progress-item{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border-radius: 100%;
+}
+.item-letter{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+#results{
+    display: hidden;
+}
+#result-item{
+    margin-top: 8px;
+}
+.passed{
+    color: green;
+    font-weight: bold;
+    margin: 0;
+}
+.failed{
+    color: red;
+    font-weight: bold;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
