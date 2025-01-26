@@ -194,6 +194,17 @@ p{
         margin-top:35px;
         text-align: center;
     }
+    .quiz-body{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    #question-text{
+        font-size: 22px;
+    }
     .action-buttons button{
         width: 100%;
         height: 40px;
